@@ -1,49 +1,128 @@
-# InjectAI Webapp
+<h1 align="center"> 🚀 InjectAI </h1>
 
-InjectAI Webapp is an AI-powered web application designed to provide intelligent solutions for various tasks. This repository contains the source code and configuration files needed to run the project.
+<p align="center">
+  <img src="https://img.shields.io/github/issues/Inject-AI/InjectAI_Webapp" alt="Issues">
+  <img src="https://img.shields.io/github/stars/Inject-AI/InjectAI_Webapp" alt="Stars">
+</p>
 
-## Features
-- AI-driven functionality
-- Responsive UI
-- Secure authentication system
-- Scalable architecture
+<p align="center">
+  InjectAI is an AI-powered application that enhances user experience through intelligent automation and modern technology. 
+  Designed for scalability, security, and efficiency, InjectAI offers cutting-edge AI functionalities for various applications.
+</p>
 
-## Installation
+---
 
+## 🌟 Key Features
+✅ AI-driven automation for smarter workflows  
+✅ Secure authentication and user management  
+✅ Responsive and intuitive UI  
+✅ Scalable architecture for enterprise-level applications  
+✅ Fast performance using modern technologies  
+
+---
+
+## ⚙️ Installation Guide
 ### Prerequisites
-- Node.js (latest version)
-- Bun package manager
+Ensure you have the following installed before proceeding:  
+- Node.js (latest version)  
+- Bun (package manager)
 
-### Setup
+### Setup Instructions
 1. Clone the repository:
-   ```sh
+ ```sh
    git clone https://github.com/Inject-AI/InjectAI_Webapp.git
    cd InjectAI_Webapp
    ```
 
 2. Install dependencies:
-   ```sh
+```sh
    bun install
    ```
 
 3. Start the development server:
-   ```sh
+
+ ```sh
    bun dev
    ```
 
 4. Build the project:
+
    ```sh
    bun build
    ```
 
-## Contributing
-We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-## Security
-If you discover a security vulnerability, please review our [SECURITY.md](SECURITY.md) and report the issue responsibly.
 
-## License
+---
+
+🚀 Usage Guide
+
+After running the development server, open your browser and visit:
+ ```sh
+  👉  http://localhost:3000
+   ```
+
+Available Scripts
+
+bun dev - Starts the development server
+
+bun build - Builds the project for production
+
+bun test - Runs test cases
+
+
+
+---
+
+🛠 Contributing
+
+We welcome contributions! 🎉
+Please follow these steps to contribute:
+
+1. Fork the repository
+
+
+2. Create a new feature branch (git checkout -b feature-branch)
+
+
+3. Commit your changes (git commit -m "Add new feature")
+
+
+4. Push the branch (git push origin feature-branch)
+
+
+5. Submit a Pull Request
+
+
+
+For detailed guidelines, check the [CONTRIBUTING.md](CONTRIBUTING.md)  file.
+
+
+---
+
+🔒 Security & Reporting Issues
+
+If you find any security vulnerabilities, please follow the responsible disclosure process as outlined in [SECURITY.md](SECURITY.md).
+
+🔹 Report Issues - Open an issue on GitHub
+🔹 Security Contact - Email: security@injectai***
+
+
+---
+
+📜 License
+
 This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
 
-## Contact
-For any inquiries, open an issue or reach out via the official repository.
+
+---
+
+🤝 Contact & Support
+
+📧 Email: support@injectai.com
+🐦 Twitter: @InjectAI
+🌐 Website: InjectAI***
+
+We appreciate your support! If you like this project, ⭐️ star the repo and spread the word! 🚀
+
+Would you like any customizations, such as adding screenshots, API documentation, or a demo link? Let me know! 🚀
