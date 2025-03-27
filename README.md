@@ -117,6 +117,20 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 
 ---
 
+
+---
+## Repository Notes and Considerations
+
+This repository represents an iteration with enhanced features over its predecessor, though it's important to acknowledge certain limitations. Specifically:
+
+* **"Knowl" Point Feature:** Due to critical security concerns related to potential database API exposure, the "Knowl" point functionality has been intentionally disabled. We prioritize the integrity and security of our data.
+
+* **API Key Management:** While the repository currently includes several free API keys for convenience, these should be considered temporary and for development/testing purposes only. **It is strongly recommended that you replace these keys with your own unique and secure API keys immediately upon cloning this repository.** Failure to do so may result in service disruptions or security vulnerabilities.
+
+We are committed to continuous improvement and are actively working to address these limitations in future updates. Your understanding and adherence to these guidelines are greatly appreciated.
+
+
+---
 🤝 Contact & Support
 
 📧 Email: support@injectai***
