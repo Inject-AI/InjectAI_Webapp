@@ -1,4 +1,4 @@
-<h1 align="center"> 🚀 InjectAI </h1>
+<h1 align="center">  InjectAI </h1>
 
 <p align="center">
   <img src="https://img.shields.io/github/issues/Inject-AI/InjectAI_Webapp" alt="Issues">
@@ -118,7 +118,6 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ---
 
 
----
 ## Repository Notes and Considerations
 
 This repository represents an iteration with enhanced features over its predecessor, though it's important to acknowledge certain limitations. Specifically:
