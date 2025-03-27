@@ -55,7 +55,7 @@ Ensure you have the following installed before proceeding:
 
 ---
 
-🚀 Usage Guide
+## 🚀 Usage Guide
 
 After running the development server, open your browser and visit:
  ```sh
@@ -74,7 +74,7 @@ bun test - Runs test cases
 
 ---
 
-🛠 Contributing
+## 🛠 Contributing
 
 We welcome contributions! 🎉
 Please follow these steps to contribute:
@@ -100,7 +100,7 @@ For detailed guidelines, check the [CONTRIBUTING.md](CONTRIBUTING.md)  file.
 
 ---
 
-🔒 Security & Reporting Issues
+## 🔒 Security & Reporting Issues
 
 If you find any security vulnerabilities, please follow the responsible disclosure process as outlined in [SECURITY.md](SECURITY.md).
 
@@ -110,7 +110,7 @@ If you find any security vulnerabilities, please follow the responsible disclosu
 
 ---
 
-📜 License
+## 📜 License
 
 This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
 
@@ -131,7 +131,7 @@ We are committed to continuous improvement and are actively working to address t
 
 
 ---
-🤝 Contact & Support
+## 🤝 Contact & Support
 
 📧 Email: support@injectai***
 🐦 Twitter: @InjectAI
