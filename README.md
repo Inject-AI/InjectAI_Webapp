@@ -119,7 +119,7 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 
 🤝 Contact & Support
 
-📧 Email: support@injectai.com
+📧 Email: support@injectai***
 🐦 Twitter: @InjectAI
 🌐 Website: InjectAI***
 
