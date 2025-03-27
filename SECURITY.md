@@ -4,7 +4,7 @@
 
 If you find a security vulnerability in InjectAI Webapp, please report it responsibly by following these steps:
 
-1. **Do not disclose vulnerabilities publicly.** Instead, email us at `security@injectai.com` with:
+1. **Do not disclose vulnerabilities publicly.** Instead, email us at `security@injectai**` with:
    - A detailed description of the vulnerability.
    - Steps to reproduce the issue.
    - Any potential impact.
