@@ -1,0 +1,190 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 33% 98%;
+    --foreground: 220 33% 9%;
+
+    --card: 220 33% 99%;
+    --card-foreground: 220 33% 9%;
+
+    --popover: 220 33% 99%;
+    --popover-foreground: 220 33% 9%;
+
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 217 33% 93%;
+    --secondary-foreground: 221 83% 53%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 14% 46%;
+
+    --accent: 221 83% 96%;
+    --accent-foreground: 221 83% 53%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 13% 90%;
+    --input: 220 13% 90%;
+    --ring: 221 83% 53%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 220 33% 98%;
+    --sidebar-foreground: 220 33% 9%;
+    --sidebar-primary: 221 83% 53%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 220 14% 96%;
+    --sidebar-accent-foreground: 221 83% 53%;
+    --sidebar-border: 220 13% 90%;
+    --sidebar-ring: 221 83% 53%;
+  }
+
+  .dark {
+    --background: 220 33% 7%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 33% 10%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 33% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 221 83% 60%;
+    --primary-foreground: 220 33% 98%;
+
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 221 83% 60%;
+
+    --muted: 220 14% 14%;
+    --muted-foreground: 220 14% 65%;
+
+    --accent: 221 83% 20%;
+    --accent-foreground: 221 83% 60%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 13% 20%;
+    --input: 220 13% 20%;
+    --ring: 221 83% 60%;
+
+    --sidebar-background: 220 33% 10%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 221 83% 60%;
+    --sidebar-primary-foreground: 220 33% 98%;
+    --sidebar-accent: 220 14% 14%;
+    --sidebar-accent-foreground: 221 83% 60%;
+    --sidebar-border: 220 13% 20%;
+    --sidebar-ring: 221 83% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium tracking-tight;
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl sm:text-3xl;
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-glass border border-white/10 backdrop-blur-md rounded-lg shadow-lg;
+  }
+
+  .glass-card {
+    @apply bg-glass border border-white/10 backdrop-blur-md rounded-2xl shadow-lg overflow-hidden transition-all duration-300;
+  }
+
+  .glass-card:hover {
+    @apply shadow-xl border-white/20 scale-[1.01];
+  }
+
+  .shimmer {
+    @apply bg-card-shimmer bg-[length:1000px_100%] animate-shimmer;
+  }
+
+  .pill {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-secondary text-secondary-foreground;
+  }
+
+  .pill-primary {
+    @apply bg-primary/10 text-primary;
+  }
+
+  .pill-success {
+    @apply bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400;
+  }
+
+  .pill-warning {
+    @apply bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400;
+  }
+
+  .pill-danger {
+    @apply bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400;
+  }
+
+  .page-transition-enter {
+    @apply opacity-0;
+  }
+
+  .page-transition-enter-active {
+    @apply opacity-100 transition-opacity duration-300;
+  }
+
+  .page-transition-exit {
+    @apply opacity-100;
+  }
+
+  .page-transition-exit-active {
+    @apply opacity-0 transition-opacity duration-300;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-secondary/50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/30 rounded-full hover:bg-primary/50 transition-colors;
+}
+
+/* Text selection */
+::selection {
+  @apply bg-primary/20 text-foreground;
+}
