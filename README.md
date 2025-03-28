@@ -1,4 +1,4 @@
-<h1 align="center">  InjectAI </h1>
+<h1 align="center">  Inject AI </h1>
 
 <p align="center">
   <img src="https://img.shields.io/github/issues/Inject-AI/InjectAI_Webapp" alt="Issues">
