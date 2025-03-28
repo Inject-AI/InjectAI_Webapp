@@ -133,7 +133,7 @@ We are committed to continuous improvement and are actively working to address t
 ## 🤝 Contact & Support
 
 📧 Email: support@injectai***
-🐦 Twitter: @InjectAI
+🐦 Twitter: @Inject_AI
 🌐 Website: InjectAI***
 
 We appreciate your support! If you like this project, ⭐️ star the repo and spread the word! 🚀
