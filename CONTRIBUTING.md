@@ -1,4 +1,4 @@
-# Contributing to InjectAI_App_V2
+# Contributing to InjectAI_App
 
 Thank you for considering contributing to InjectAI_App_V2! Please follow the guidelines below to ensure smooth collaboration.
 
