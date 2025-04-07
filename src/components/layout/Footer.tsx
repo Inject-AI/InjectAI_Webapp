@@ -28,6 +28,11 @@ const Footer = () => {
             <h4 className="font-medium mb-4">Platform</h4>
             <ul className="space-y-2 text-sm">
               <li>
+                <Link to="/" className="text-muted-foreground hover:text-foreground transition-colors">
+                  Home
+                </Link>
+              </li>
+              <li>
                 <Link to="/dashboard" className="text-muted-foreground hover:text-foreground transition-colors">
                   Dashboard
                 </Link>
