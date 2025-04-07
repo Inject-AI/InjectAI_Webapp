@@ -45,12 +45,7 @@ const Hero = () => {
               </Button>
             ) : (
               <WalletConnect size="lg" />
-            )}
-            <Button variant="outline" size="lg" asChild>
-              <Link to="/reports">
-                Explore Reports
-              </Link>
-            </Button>
+            )} 
           </div>
 
           <div className="mt-16 w-full max-w-4xl bg-card/30 backdrop-blur-md border border-white/10 rounded-3xl p-2 shadow-xl overflow-hidden animate-fade-in">
