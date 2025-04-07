@@ -137,5 +137,3 @@ We are committed to continuous improvement and are actively working to address t
 🌐 Website: InjectAI***
 
 We appreciate your support! If you like this project, ⭐️ star the repo and spread the word! 🚀
-
-Would you like any customizations, such as adding screenshots, API documentation, or a demo link? Let me know! 🚀
