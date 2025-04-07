@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="text-xl font-semibold flex items-center gap-2">
               <img 
-                src="/lovable-uploads/1bd601ff-cfe9-4f25-b538-588df83756ff.png" 
+                src="/logo.png" 
                 alt="Inject AI Robot Logo" 
                 className="h-10 w-10"
               />
