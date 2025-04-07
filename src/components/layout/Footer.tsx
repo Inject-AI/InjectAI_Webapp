@@ -59,22 +59,17 @@ const Footer = () => {
             <h4 className="font-medium mb-4">Community</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="https://twitter.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="https://x.com/Inject_AI" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                   Twitter
                 </a>
               </li>
               <li>
-                <a href="https://discord.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Discord
-                </a>
-              </li>
-              <li>
-                <a href="https://telegram.org" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="https://t.me/InjectAI" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                   Telegram
                 </a>
               </li>
               <li>
-                <a href="https://github.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="https://github.com/Inject-AI" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                   GitHub
                 </a>
               </li>
