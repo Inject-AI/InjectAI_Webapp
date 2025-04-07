@@ -41,12 +41,7 @@ const CTA = () => {
                 </Button>
               ) : (
                 <WalletConnect size="lg" />
-              )}
-              <Button variant="outline" size="lg" asChild>
-                <Link to="/reports">
-                  Explore Reports
-                </Link>
-              </Button>
+              )} 
             </div>
           </div>
         </div>
