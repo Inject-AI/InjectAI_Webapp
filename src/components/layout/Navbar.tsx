@@ -28,7 +28,7 @@ const Navbar = () => {
   const navItems = [
     { title: "Home", href: "/" },
     { title: "Dashboard", href: "/dashboard" },
-    { title: "Reports", href: "/reports" },
+    { title: "Token Reports", href: "/token-reports" },
     { title: "DAO Governance", href: "/dao-governance" },
     { title: "Profile", href: "/profile" },
   ];
