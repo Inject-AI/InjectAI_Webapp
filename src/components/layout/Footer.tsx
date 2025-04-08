@@ -69,6 +69,11 @@ const Footer = () => {
                 </a>
               </li>
               <li>
+                <a href="https://www.youtube.com/@inject_ai" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                  YouTube
+                </a>
+              </li>
+              <li>
                 <a href="https://github.com/Inject-AI" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                   GitHub
                 </a>
